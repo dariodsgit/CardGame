@@ -20,11 +20,12 @@ class Deck:
                 
     def __str__(self):
         elements_str = "\n".join(str(card) for card in self.all_cards)
-        return f"MyClass with value: {elements_str}"
+        return f"{elements_str}"
     
     def printCards(self):
         for card in self.all_cards:
             print(card)
+            print(len(self.all_cards))
     
     def shuffle(self):
         random.shuffle(self.all_cards)
