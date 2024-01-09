@@ -11,6 +11,7 @@ two_hearts = Card("Hearts", "Two")
 
 game_logic = GameLogic()
 
+game_logic
 
 '''new_deck = Deck()
 #new_deck.printCards()
