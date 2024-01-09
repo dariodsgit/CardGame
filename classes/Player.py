@@ -2,8 +2,8 @@
 
 class Player:
     
-    def __init__(self,name):
-        self.deck = []
+    def __init__(self,deck,name):
+        self.deck = deck
         self.name = name
     #    for card in cards:
     #      self.deck.append(card)

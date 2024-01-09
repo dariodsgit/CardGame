@@ -32,3 +32,11 @@ class Deck:
         
     def dealOne(self):
         return self.all_cards.pop()
+    
+    def addCard(self,cards):
+        #list of multiple cards
+        if type(cards) == type([]):
+            self.deck.extend(cards)
+            #one single card
+        else:
+            self.deck.append(cards)
